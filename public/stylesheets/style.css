@@ -1,0 +1,38 @@
+		html, body {
+			width: 100%;
+			height: 100%;
+		}
+		#main-container { 
+			background-color: lawngreen; 
+			width: 100%;
+			height: 100%;
+		}
+		#main-content {
+			height: 100%;
+		}
+		#chat {
+			overflow-y: scroll;
+		}
+		#users {
+			background-color: red;
+			height: 100%;
+			overflow-y: scroll;
+			color: white;
+		}
+		#inbox {
+			background-color: blue;
+			height: 100%;
+			overflow-y: scroll;
+			color: white;
+		}
+		.user { 
+			background-color:cyan; 
+			cursor: pointer;
+		}
+		.chat-inbox {
+			background-color:cyan; 
+			cursor: pointer;
+		}
+		.chatmessages {
+			background-color:cyan;
+		}

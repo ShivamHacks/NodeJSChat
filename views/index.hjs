@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat</title>
+	<link rel='stylesheet' href='/stylesheets/bootstrap.css' />
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+
+
+	<div class="container-fluid" id="main-container">
+
+		<div class="row" id="main-content">
+
+			<div class="col-sm-2" id="inbox">
+				<h1 class="text-center">inbox</h1><hr>
+				<table class="table" id="inboxtable">
+					<tbody id="messagesinbox"></tbody>
+				</table>
+			</div>
+
+			<div class="col-sm-8" id="chat">
+				<table class="table" id="chatmessages">
+					<tbody id="chatmessagestable"></tbody>
+				</table>
+				<div class="form-group" id="chat-input">
+   					<input type="text" class="form-control input-lg" id="message-box">
+				</div>
+			</div>
+
+			<div class="col-sm-2" id="users">
+
+				<table class="table" id="userstable">
+					<h1 class="text-center">online</h1><hr>
+					<tbody id="connected"></tbody>
+				</table>
+
+				<button type="button" class="btn btn-primary btn-block btn-lg" id="initiate-chat">Chat</button>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<script type='text/javascript' src='/javascripts/jquery.js'></script>
+	<script type='text/javascript' src='/javascripts/bootstrap.js'></script>
+	<script type='text/javascript' src="/socket.io/socket.io.js"></script>
+	<script type='text/javascript' src="/javascripts/main.js"></script>
+	
+</body>
+</html>
+
+
